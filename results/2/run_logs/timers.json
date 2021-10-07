@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1633571467",
+        "python_version": "3.8.10 (default, Sep 28 2021, 16:10:42) \n[GCC 9.3.0]",
+        "command_line_arguments": "/home/tjams/Desktop/ml_agents_poc_test/venv/bin/mlagents-learn config/ppo/3DBall.yaml --run-id=2",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1+cu102",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1633571478"
+    },
+    "total": 11.006085445987992,
+    "count": 1,
+    "self": 0.0051269000105094165,
+    "children": {
+        "run_training.setup": {
+            "total": 0.023903149005491287,
+            "count": 1,
+            "self": 0.023903149005491287
+        },
+        "TrainerController.start_learning": {
+            "total": 10.977055396971991,
+            "count": 1,
+            "self": 7.591396570205688e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.976890530000674,
+                    "count": 1,
+                    "self": 10.976890530000674
+                },
+                "TrainerController._save_models": {
+                    "total": 8.89530056156218e-05,
+                    "count": 1,
+                    "self": 8.89530056156218e-05
+                }
+            }
+        }
+    }
+}
